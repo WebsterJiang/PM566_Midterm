@@ -8,7 +8,7 @@ output:
 always_allow_html: yes
 ---
 #### Introduction:
-For this project, I am wondering whether the different in people's income would influence the death cases in the US. For the first dateset, I choose to use Median Income for each state in the US provided by United State Census and the link is 'https://www.census.gov/search-results.html?q=Median+income+&page=1&stateGeo=none&searchtype=web&cssp=SERP&_charset_=UTF-8'. For the second dateset, I choose to use the collection of Covid-19 cases and all-causes death cases in each state and county in the US provided by the CDC and the link is 'https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy'. 
+For this project, I am wondering whether the different in people's income would influence the death cases in the US. For the first dateset, I choose to use Median Income for each state in the US provided by United State Census and the link is 'https://www.census.gov/search-results.html?q=Median+income+&page=1&stateGeo=none&searchtype=web&cssp=SERP&_charset_=UTF-8'. For the second dateset, I choose to use the collection of Covid-19 cases and all-causes death cases in each state and county in the US provided by the CDC and the link is 'https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy' 
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -171,6 +171,3 @@ ggplot(data=covid1) +
 ```
 ### Conclusion:
 We collect the information about the median Income and COVID-19 death for all 50 States in the US. Four of those state which are LA,TX,NY and FL have the higher COVID-19 death cases than other states. For the Median income for people living in CA,TX and NY are over $60,000 which is a relative large value, but for the linear association between income and COVID-19 deaths, there is not a clear pattern. For the further analysis, I would introduce more variables like race, gender to show whether they confounded the association between income and COVID-19 deaths.
-
-
-

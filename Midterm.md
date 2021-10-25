@@ -11,7 +11,7 @@ United State Census and the link is
 For the second dateset, I choose to use the collection of Covid-19 cases
 and all-causes death cases in each state and county in the US provided
 by the CDC and the link is
-‘<https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy>’.
+‘<https://data.cdc.gov/NCHS/Provisional-COVID-19-Death-Counts-in-the-United-St/kn79-hsxy>’
 
 #### 1.Main Question: Is there an association between Income status and death caused by Covid-19?
 
